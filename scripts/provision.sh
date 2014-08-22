@@ -91,6 +91,3 @@ apt-get -qq autoremove > /dev/null
 
 echo ">>>> Updating composer"
 /usr/local/bin/composer self-update > /dev/null
-
-echo ">>>> Restarting VM"
-/sbin/shutdown -r now
