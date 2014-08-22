@@ -1,7 +1,7 @@
 class Murvo
   def Murvo.configure(config, settings)
     # Configure The Box
-    config.vm.box = "ubuntu/trusty64"
+    config.vm.box = "ubuntu/trusty32"
     config.vm.hostname = "murvolocal"
 
     # Configure A Private Network IP
